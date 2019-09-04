@@ -1,0 +1,25 @@
+<!-- chat/templates/chat/index.html -->
+{% extends "chat/layout.html" %} {% block content %}
+    <div style="text-align:center;">
+    <h3>Cuál es tu nombre?<h3/>
+    <input id="person-name-input" type="text" size="50"/><br/>
+    <input id="person-name-submit" type="button" value="Enter"/>
+   <div/>
+
+
+    <script>
+        document.querySelector('#person-name-input').focus();
+        document.querySelector('#person-name-input').onkeyup = function(e) {
+            if (e.keyCode === 13) {  // enter, return
+                document.querySelector('#person-name-submit').click();
+            }
+        };
+
+        document.querySelector('#person-name-submit').onclick = function(e) {
+            var personName = document.querySelector('#person-name-input').value;
+            window.location.pathname = '/chat/' + 'arqui' + '/' + personName + '/';
+        };
+
+    </script>
+
+{% endblock content %}

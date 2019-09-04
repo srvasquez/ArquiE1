@@ -1,0 +1,19 @@
+.block {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: 700px;
+    overflow: scroll;
+    background-color: #e0fbfc;
+    border-style: outset;
+ }
+
+.miClase {
+    background-color: #3d5a80;
+}
+
+#myTab {
+    margin: auto;
+    width: 50%;
+}
