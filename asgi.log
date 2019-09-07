@@ -1,0 +1,5 @@
+2019-09-06 19:28:16,218 INFO     Starting server at fd:fileno=0, unix:/home/ubuntu/ArquiE1/mysite/daphne.sock
+2019-09-06 19:28:16,228 INFO     HTTP/2 support enabled
+2019-09-06 19:28:16,228 INFO     Configuring endpoint fd:fileno=0
+2019-09-06 19:28:16,325 INFO     Listening on TCP address 127.0.0.1:8001
+2019-09-06 19:28:16,325 INFO     Configuring endpoint unix:/home/ubuntu/ArquiE1/mysite/daphne.sock
